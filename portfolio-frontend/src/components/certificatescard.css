@@ -1,0 +1,38 @@
+/* 📌 Certificate Card */
+.certificate-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.certificate-card:hover {
+    transform: translateY(-5px);
+}
+
+.certificate-card h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.certificate-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.certificate-card a {
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.certificate-card a:hover {
+    background-color: #0056b3;
+}
